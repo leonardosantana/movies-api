@@ -107,9 +107,9 @@ public class MovieControllerIntegrationTest {
 
         final Movie movie = Movie.builder().title("Teste1").build();
 
-        ResponseEntity<Movie> response = template.postForEntity(MOVIE_URL, movie, Movie.class);
+        ResponseEntity<String> response = template.postForEntity(MOVIE_URL, movie, String.class);
 
-        assertEquals("Result is not expected", HttpStatus.INTERNAL_SERVER_ERROR,response.getStatusCode());
+        assertEquals("Result is not expected", HttpStatus.BAD_REQUEST,response.getStatusCode());
 
     }
 
