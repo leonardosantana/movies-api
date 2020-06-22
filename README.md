@@ -16,3 +16,6 @@ or
 mvn package
 java -jar <arctifact-name.jar>
 
+##Api routes
+Detailed routes and examples can be checked in http://localhost:8080/swagger-ui.html
+ 
