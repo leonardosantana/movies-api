@@ -19,3 +19,16 @@ java -jar <arctifact-name.jar>
 ##Api routes
 Detailed routes and examples can be checked in http://localhost:8080/swagger-ui.html
  
+##Tecnolies
+Spring data rest
+h2
+swagger
+
+##Profiles
+project has a dev profile. To activate set profile parameter configure spring.profiles.active=dev in your setup
+
+##Deploy
+this project was deployed in https://movies-api-2.herokuapp.com/
+
+
+
